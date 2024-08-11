@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #343a40;
+}
+
+h2 {
+    color: #495057;
+}
+
+h3 {
+    color: #6c757d;
+}
+
+/* Header */
+.logo {
+    border-radius: 50%;
+    border: 2px solid #007BFF;
+}
+
+/* Navigation */
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Audio & Video */
+audio, video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1px 20px; /* Adjusted padding for footer size */
+    background-color: #343a40;
+    color: white;
+    font-size: 14px; /* Adjusted font size */
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 8px; /* Adjusted margin for spacing between links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+a::before {
+    content: "🔗 ";
+}
+
+
+section:nth-of-type(even) {
+    background-color: #e9ecef;
+}
+
+section:first-of-type {
+    margin-top: 0;
+}
+
+section:last-of-type {
+    margin-bottom: 0;
+}
